@@ -14,6 +14,7 @@ pip install fastapi
 Uvicorn : 
 pip install uvicorn 
 
+pip install -r requirements.txt
 
 Create main file : 
 main.py
@@ -30,5 +31,6 @@ def log():
     return {"data": "Fast API Data"}
 
 Run : 
+.\env\Scripts\Activate.ps1
 uvicorn main:app --reload
 
