@@ -10,3 +10,11 @@ class User(BaseModel):
 class Log(BaseModel):
     name: str
     password: str
+
+
+    #  Form Data 
+class Form(BaseModel):
+    id : int
+    name : str 
+    date : str
+    company : str
