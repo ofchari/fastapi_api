@@ -5,16 +5,20 @@ class User(BaseModel):
     age: int
     email: str
 
-         
-    #   Login User Model 
 class Log(BaseModel):
     name: str
     password: str
 
-
-    #  Form Data 
 class Form(BaseModel):
+    id: int
+    name: str
+    date: str
+    company: str
+
+class Dashboard(BaseModel):
     id : int
-    name : str 
-    date : str
+    name : str
+    country : str
     company : str
+    phone_number : int
+    address : str
