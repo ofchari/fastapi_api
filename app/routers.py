@@ -55,6 +55,11 @@ async def logdta():
     "log": log_helper(created_log)
     }
 
+@router.get("/")
+async def live_data():
+    return {
+    "message" : "FastAPI is Live"
+    }
 
         #   Get API for Form Fields data //
 @router.get("/form_fieldss_data")
