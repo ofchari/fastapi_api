@@ -155,5 +155,6 @@ database.py = DB connection
 
 routes.py = logic
 
-
+Deploy Start Command :
+uvicorn app.main:app --host 0.0.0.0 --port $PORT
 
